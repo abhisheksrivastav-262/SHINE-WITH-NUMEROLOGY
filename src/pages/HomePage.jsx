@@ -122,8 +122,12 @@ export default function HomePage({ setActivePage, setSelectedService }) {
                 As professional Numerologists, Relationship Coaches, Educators & Story Tellers, we have spent years guiding everyone—from high-net-worth individuals and business leaders to couples, students, and even strugglers desperately trying to save their jobs.
               </p>
 
-              <p className="text-sm text-[#E8DFD1]/75 leading-relaxed">
-                We have seen it all, and we have always helped and guided people to the very best of our capacity and capabilities.
+              <p className="text-sm text-[#E8DFD1]/75 leading-relaxed font-light">
+                We have helped couples on the verge of separation reconnect, brought fathers and sons together when they were not even on speaking terms, resolved deep misunderstandings, and saved family-run businesses where brothers stood against each other.
+              </p>
+
+              <p className="text-sm text-[#E8DFD1]/75 leading-relaxed font-light">
+                We have seen it all, and we continue to help and guide people with the very best of our capacity, compassion, and capabilities.
               </p>
 
               <div className="py-2 text-center border-y border-[#C8A44D]/20 my-3">
