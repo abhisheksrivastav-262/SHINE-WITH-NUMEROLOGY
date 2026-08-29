@@ -109,9 +109,9 @@ export default function HomePage({ setActivePage, setSelectedService }) {
 
             {/* Founder Bio Content */}
             <div className="lg:col-span-7 space-y-6">
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel text-xs uppercase tracking-[0.2em] text-[#C8A44D]">
-                <Sparkles className="w-3.5 h-3.5" />
-                <span>The Visionary Behind Shine</span>
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel text-xs uppercase tracking-[0.18em] text-[#C8A44D] max-w-full text-center">
+                <Sparkles className="w-3.5 h-3.5 shrink-0" />
+                <span>THE VISIONARY BEHIND SHINE WITH NUMEROLOGY</span>
               </div>
 
               <h2 className="font-serif text-3xl sm:text-5xl font-bold leading-tight text-[#F8F5EF]">
