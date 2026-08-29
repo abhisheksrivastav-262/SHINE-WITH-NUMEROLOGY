@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-ivory: #F8F5EF;
+    --color-black-pure: #0B0B0C;
+    --color-black-matte: #121214;
+    --color-black-card: #1A1A1D;
+    --color-gold: #C8A44D;
+    --color-gold-light: #E6CA65;
+    --color-gold-dark: #9E7B2B;
+    --color-beige: #E8DFD1;
+    --color-beige-subtle: #24221F;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-black-pure);
+    color: var(--color-ivory);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+/* Glassmorphism & Gold Styling */
+.glass-panel {
+  background: rgba(26, 26, 29, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(200, 164, 77, 0.18);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.glass-panel-gold {
+  background: linear-gradient(135deg, rgba(200, 164, 77, 0.12) 0%, rgba(18, 18, 20, 0.85) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(200, 164, 77, 0.35);
+  box-shadow: 0 10px 40px rgba(200, 164, 77, 0.08);
+}
+
+.glass-nav {
+  background: rgba(12, 12, 13, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(200, 164, 77, 0.15);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF0CA 0%, #C8A44D 50%, #9E7B2B 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-shimmer {
+  background: linear-gradient(90deg, #C8A44D 0%, #FFF5D0 50%, #C8A44D 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldShimmer 6s linear infinite;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #C8A44D 50%, #A68028 100%);
+}
+
+.bg-gold-gradient-hover:hover {
+  background: linear-gradient(135deg, #E6CA65 0%, #D4AF37 50%, #B89033 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(200, 164, 77, 0.25);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 35px rgba(200, 164, 77, 0.4);
+}
+
+.border-gold-subtle {
+  border-color: rgba(200, 164, 77, 0.25);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0C0C0D;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A251B;
+  border-radius: 4px;
+  border: 1px solid rgba(200, 164, 77, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8A44D;
+}
+
+/* Animations */
+@keyframes goldShimmer {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 8s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 35s linear infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* Masonry grid support */
+.masonry-grid {
+  display: columns;
+  column-count: 1;
+  column-gap: 1.5rem;
+}
+@media (min-width: 768px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .masonry-grid {
+    column-count: 3;
+  }
+}
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
