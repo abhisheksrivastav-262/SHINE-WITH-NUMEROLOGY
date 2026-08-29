@@ -35,7 +35,7 @@ export default function HomePage({ setActivePage, setSelectedService }) {
             <span>Mumbai's Trusted Spiritual Luxury Studio</span>
           </div>
 
-          <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.15] text-[#F8F5EF]">
+          <h1 className="font-serif text-3xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.15] text-[#F8F5EF]">
             Discover the Power of <br />
             <span className="text-gold-shimmer">Your Numbers</span>
           </h1>
