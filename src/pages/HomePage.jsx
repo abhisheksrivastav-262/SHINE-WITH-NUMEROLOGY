@@ -30,9 +30,16 @@ export default function HomePage({ setActivePage, setSelectedService }) {
 
         {/* Hero Content */}
         <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
-          <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full glass-panel border-[#C8A44D]/40 text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A44D] gold-glow">
-            <Sparkles className="w-4 h-4 text-[#C8A44D]" />
-            <span>Mumbai's Trusted Spiritual Luxury Studio</span>
+          <div className="inline-flex flex-col items-center justify-center gap-1.5 px-6 py-3 rounded-3xl glass-panel border-[#C8A44D]/40 text-[10.5px] sm:text-xs font-semibold uppercase tracking-[0.15em] sm:tracking-[0.25em] gold-glow text-center leading-tight">
+            <div className="flex items-center gap-2 text-[#F8F5EF]">
+              <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#C8A44D] shrink-0" />
+              <span>Mumbai's</span>
+            </div>
+            <div className="flex flex-wrap justify-center items-center gap-x-1.5">
+              <span className="text-[#C8A44D]">Spiritual</span>
+              <span className="font-bold text-[#C8A44D]">Affordable</span>
+              <span className="text-[#C8A44D]">Studio</span>
+            </div>
           </div>
 
           <h1 className="font-serif text-3xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.15] text-[#F8F5EF]">
@@ -119,15 +126,15 @@ export default function HomePage({ setActivePage, setSelectedService }) {
               </h2>
 
               <p className="text-base text-[#E8DFD1]/80 leading-relaxed font-light">
-                As professional Numerologists, Relationship Coaches, Educators & Story Tellers, we have spent years guiding everyone—from high-net-worth individuals and business leaders to couples, students, and even strugglers desperately trying to save their jobs.
+                We are definitely not the biggest or the most trusted name in Numerology—but we strive to be the most approachable and most understanding.
               </p>
 
               <p className="text-sm text-[#E8DFD1]/75 leading-relaxed font-light">
-                We have helped couples on the verge of separation reconnect, brought fathers and sons together when they were not even on speaking terms, resolved deep misunderstandings, and saved family-run businesses where brothers stood against each other.
+                With our practical and pragmatic approach, we sincerely work towards raising the standards of customer satisfaction and meaningful problem-solving.
               </p>
 
               <p className="text-sm text-[#E8DFD1]/75 leading-relaxed font-light">
-                We have seen it all, and we continue to help and guide people with the very best of our capacity, compassion, and capabilities.
+                We have helped couples on the verge of separation reconnect, brought fathers and sons together when they were not even on speaking terms, resolved deep misunderstandings, and saved family-run businesses where brothers stood against each other — of course, with the help of Numerology.
               </p>
 
               <div className="py-2 text-center border-y border-[#C8A44D]/20 my-3">
@@ -255,7 +262,7 @@ export default function HomePage({ setActivePage, setSelectedService }) {
                 className="glass-panel p-8 rounded-2xl text-center space-y-2 border-[#C8A44D]/30 gold-glow-hover transition-all"
               >
                 <div className="font-serif text-4xl sm:text-5xl font-bold text-gold-shimmer">
-                  {stat.value.toLocaleString()}{stat.suffix}
+                  {stat.value}{stat.suffix}
                 </div>
                 <div className="text-xs font-medium uppercase tracking-widest text-[#E8DFD1]/80">
                   {stat.label}

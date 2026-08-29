@@ -122,10 +122,10 @@ export const SERVICES = [
 ];
 
 export const WHY_CHOOSE_STATS = [
-  { value: 10000, label: "Consultations Completed", suffix: "+" },
-  { value: 15, label: "Years Experience", suffix: "+" },
-  { value: 98, label: "Client Satisfaction", suffix: "%" },
-  { value: 45, label: "Countries Served Worldwide", suffix: "+" }
+  { value: "700", label: "Consultations Delivered", suffix: "+" },
+  { value: "5+ Years", label: "of Experience", suffix: "" },
+  { value: "70", label: "Client Satisfaction", suffix: "%" },
+  { value: "Local & Overseas", label: "Clients", suffix: "" }
 ];
 
 export const TESTIMONIALS = [

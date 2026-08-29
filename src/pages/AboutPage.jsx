@@ -50,7 +50,7 @@ export default function AboutPage({ setActivePage }) {
     {
       year: "Present",
       title: "700+ Consultations Delivered",
-      desc: "Guiding clients across 45+ countries via private Zoom sessions and Mumbai studio visits."
+      desc: "Guiding Local & Overseas Clients via private online sessions and Mumbai studio visits."
     }
   ];
 
@@ -96,15 +96,15 @@ export default function AboutPage({ setActivePage }) {
             </p>
 
             <p className="text-base text-[#E8DFD1]/80 leading-relaxed font-light">
-              As professional Numerologists, Relationship Coaches, Educators & Story Tellers, we have spent years guiding everyone—from high-net-worth individuals and business leaders to couples, students, and even strugglers desperately trying to save their jobs.
+              We are definitely not the biggest or the most trusted name in Numerology—but we strive to be the most approachable and most understanding.
             </p>
 
             <p className="text-sm text-[#E8DFD1]/75 leading-relaxed font-light">
-              We have helped couples on the verge of separation reconnect, brought fathers and sons together when they were not even on speaking terms, resolved deep misunderstandings, and saved family-run businesses where brothers stood against each other.
+              With our practical and pragmatic approach, we sincerely work towards raising the standards of customer satisfaction and meaningful problem-solving.
             </p>
 
             <p className="text-sm text-[#E8DFD1]/75 leading-relaxed font-light">
-              We have seen it all, and we continue to help and guide people with the very best of our capacity, compassion, and capabilities.
+              We have helped couples on the verge of separation reconnect, brought fathers and sons together when they were not even on speaking terms, resolved deep misunderstandings, and saved family-run businesses where brothers stood against each other — of course, with the help of Numerology.
             </p>
 
             <div className="py-2 text-center border-y border-[#C8A44D]/20 my-3">

@@ -50,7 +50,7 @@ export default function Navbar({ activePage, setActivePage }) {
               SHINE WITH NUMEROLOGY
             </span>
             <span className="text-[10px] uppercase tracking-[0.12em] sm:tracking-[0.2em] text-[#E8DFD1]/60 block whitespace-nowrap">
-              MUMBAI • <span className="line-through decoration-[#C8A44D] decoration-[1.5px] opacity-75">LUXURY</span> <span className="text-[#C8A44D] font-bold">AFFORDABLE</span> STUDIO
+              MUMBAI • <span className="text-[#C8A44D] font-bold">AFFORDABLE</span> STUDIO
             </span>
           </div>
         </button>
