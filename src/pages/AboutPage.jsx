@@ -96,12 +96,18 @@ export default function AboutPage({ setActivePage }) {
             </p>
 
             <p className="text-base text-[#E8DFD1]/80 leading-relaxed font-light">
-              Rrajesh Hinduja is one of Mumbai's most trusted Numerologists and Relationship Coaches, known for synthesizing Pythagorean numerical science with deep emotional intuition and spiritual clarity.
+              As professional Numerologists, Relationship Coaches, Educators & Story Tellers, we have spent years guiding everyone—from high-net-worth individuals and business leaders to couples, students, and even strugglers desperately trying to save their jobs.
             </p>
 
-            <p className="text-sm text-[#E8DFD1]/70 leading-relaxed font-light">
-              Over the past 5+ years, Rrajesh has consulted for over 700+ clients—helping industrialists, executives, couples, and public personalities harmonize their personal charts, align business titles, and navigate crucial life transitions.
+            <p className="text-sm text-[#E8DFD1]/75 leading-relaxed font-light">
+              We have seen it all, and we have always helped and guided people to the very best of our capacity and capabilities.
             </p>
+
+            <div className="py-2 text-center border-y border-[#C8A44D]/20 my-3">
+              <span className="font-serif italic text-lg sm:text-xl font-medium text-gold-shimmer block">
+                "We only help… HE Heals."
+              </span>
+            </div>
 
             {/* Gold Signature Accent */}
             <div className="pt-6 border-t border-[#C8A44D]/20 flex items-center justify-between">

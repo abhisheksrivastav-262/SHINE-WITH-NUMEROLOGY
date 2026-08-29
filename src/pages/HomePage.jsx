@@ -119,12 +119,18 @@ export default function HomePage({ setActivePage, setSelectedService }) {
               </h2>
 
               <p className="text-base text-[#E8DFD1]/80 leading-relaxed font-light">
-                Numbers are not mere abstract symbols; they are the fundamental energetic frequencies through which human destiny, relationship chemistry, and business endeavors manifest. 
+                As professional Numerologists, Relationship Coaches, Educators & Story Tellers, we have spent years guiding everyone—from high-net-worth individuals and business leaders to couples, students, and even strugglers desperately trying to save their jobs.
               </p>
 
-              <p className="text-sm text-[#E8DFD1]/70 leading-relaxed">
-                As a Professional Numerologist, Relationship Coach, Educator, and Story Teller based in Kalina, Mumbai, I have spent over 5+ years guiding high-net-worth individuals, industrialists, couples, and corporate leaders to align their personal energy with cosmic mathematical laws.
+              <p className="text-sm text-[#E8DFD1]/75 leading-relaxed">
+                We have seen it all, and we have always helped and guided people to the very best of our capacity and capabilities.
               </p>
+
+              <div className="py-2 text-center border-y border-[#C8A44D]/20 my-3">
+                <span className="font-serif italic text-lg sm:text-xl font-medium text-gold-shimmer block">
+                  "We only help… HE Heals."
+                </span>
+              </div>
 
               {/* 4 Credentials Grid */}
               <div className="grid grid-cols-2 gap-4 pt-2">
