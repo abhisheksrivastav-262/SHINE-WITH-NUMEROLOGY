@@ -49,7 +49,7 @@ export default function AboutPage({ setActivePage }) {
     },
     {
       year: "Present",
-      title: "10,000+ Worldwide Consultations",
+      title: "700+ Consultations Delivered",
       desc: "Guiding clients across 45+ countries via private Zoom sessions and Mumbai studio visits."
     }
   ];
@@ -100,7 +100,7 @@ export default function AboutPage({ setActivePage }) {
             </p>
 
             <p className="text-sm text-[#E8DFD1]/70 leading-relaxed font-light">
-              Over the past 15+ years, Rrajesh has consulted for over 10,000 clients across 45 countries—helping industrialists, executives, couples, and public personalities harmonize their personal charts, align business titles, and navigate crucial life transitions.
+              Over the past 5+ years, Rrajesh has consulted for over 700+ clients—helping industrialists, executives, couples, and public personalities harmonize their personal charts, align business titles, and navigate crucial life transitions.
             </p>
 
             {/* Gold Signature Accent */}

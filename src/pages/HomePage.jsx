@@ -65,20 +65,20 @@ export default function HomePage({ setActivePage, setSelectedService }) {
           {/* Floating Trust Badges */}
           <div className="pt-12 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto text-center border-t border-[#C8A44D]/20">
             <div className="text-xs text-[#E8DFD1]/70">
-              <span className="block font-serif text-lg font-bold text-[#C8A44D]">10,000+</span>
+              <span className="block font-serif text-lg font-bold text-[#C8A44D]">700+</span>
               Consultations Delivered
             </div>
             <div className="text-xs text-[#E8DFD1]/70">
-              <span className="block font-serif text-lg font-bold text-[#C8A44D]">15+ Years</span>
-              Practicing Mastery
+              <span className="block font-serif text-lg font-bold text-[#C8A44D]">5+ Years</span>
+              of Experience
             </div>
             <div className="text-xs text-[#E8DFD1]/70">
-              <span className="block font-serif text-lg font-bold text-[#C8A44D]">98%</span>
+              <span className="block font-serif text-lg font-bold text-[#C8A44D]">70%</span>
               Client Satisfaction
             </div>
             <div className="text-xs text-[#E8DFD1]/70">
-              <span className="block font-serif text-lg font-bold text-[#C8A44D]">Worldwide</span>
-              Zoom & Studio Sessions
+              <span className="block font-serif text-lg font-bold text-[#C8A44D]">Local & Overseas</span>
+              Clients
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@ export default function HomePage({ setActivePage, setSelectedService }) {
               </p>
 
               <p className="text-sm text-[#E8DFD1]/70 leading-relaxed">
-                As a Professional Numerologist, Relationship Coach, Educator, and Story Teller based in Kalina, Mumbai, I have spent over 15 years guiding high-net-worth individuals, industrialists, couples, and corporate leaders to align their personal energy with cosmic mathematical laws.
+                As a Professional Numerologist, Relationship Coach, Educator, and Story Teller based in Kalina, Mumbai, I have spent over 5+ years guiding high-net-worth individuals, industrialists, couples, and corporate leaders to align their personal energy with cosmic mathematical laws.
               </p>
 
               {/* 4 Credentials Grid */}
